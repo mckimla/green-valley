@@ -31,17 +31,17 @@ h1 {
 
 /*heading 2*/
 h2 {
-  font: bold 4.0em Bodoni 72, serif;
+  font: bold 4.0em Quicksand, serif;
   height: 65px;
-  color: #98ab9d;
+  color: #47697e;
   padding-top: 15px;
   padding-bottom: 90px;
 }
 
 /*heading 3*/
-h3 { font: bold 1.5em Bodoni 72, serif;
-    color: #000000;
-    padding-top: 25px;
+h3 { font: bold 1.5em Quicksand, serif;
+    color: #688b9a;
+    
     padding-bottom: 15px;
 }
 
@@ -106,10 +106,27 @@ div.c {
 }
 
 /* Cards */
-.cards {
+.card {
   padding-top: 35px;
+  padding-bottom: 35px;
 }
 
+.bg-primary {
+  background-color: #a3c586 !important;
+}
+
+.bg-warning {
+
+  background-color: #a3c586 !important;
+}
+
+.bg-success {
+  background-color: #a3c586 !important;
+}
+
+.buttons {
+  padding-bottom: 40px;
+}
 
 .form-row {
   
