@@ -107,8 +107,8 @@ div.c {
 
 /* Cards */
 .card {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .bg-primary {
@@ -126,6 +126,10 @@ div.c {
 
 .buttons {
   padding-bottom: 40px;
+}
+
+.card-text {
+  color: white;
 }
 
 .form-row {
