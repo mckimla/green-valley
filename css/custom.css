@@ -159,6 +159,10 @@ div.c {
   font-size: 150%;
 }
 
+.card-text:hover {
+  color: #688b9a;
+}
+
 .wrapper {
     display: flex;
     width: 100%;
@@ -176,6 +180,11 @@ div.c {
 
 .home {
   padding-top: 25px;
+}
+
+.btn:hover {
+    background-color: #688b9a;
+    text-decoration: underline;
 }
  
 
