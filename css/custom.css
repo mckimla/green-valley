@@ -111,6 +111,10 @@ div.c {
   padding-bottom: 50px;
 }
 
+.clientcard {
+  padding-bottom:50px;
+}
+
 .bg-primary {
   background-color: #a3c586 !important;
 }
@@ -149,6 +153,10 @@ div.c {
 
 .login-btn {
   padding-top: 30px;
+}
+
+.card-text {
+  font-size: 150%;
 }
 
 
