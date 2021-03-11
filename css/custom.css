@@ -100,6 +100,24 @@ div.c {
   padding-bottom:25px;
 }
 
+.logo2 {
+  width: 20%;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+
+.logo3 {
+  width: 20%;
+}
+
+.form-line {
+  padding-top: 10px;
+}
+
+.topnav {
+  float: left;
+}
+
 /* Footer */
 .footer {
 	padding-top: 100px;
