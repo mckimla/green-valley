@@ -161,7 +161,7 @@ div.c {
 
 /* Card Text */
 .card-text {
-  color: white;
+  color: white !important;
   font-size: 150%;
 }
 
@@ -201,9 +201,7 @@ div.c {
 }
 
 
-.card-text:hover {
-  color: #688b9a;
-}
+
 
 .wrapper {
     display: flex;
