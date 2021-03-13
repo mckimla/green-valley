@@ -17,95 +17,102 @@
 
 	<body>
 
-		<header class="row"> <!-- Logo Starts Here -->
-				<div class="col-md-3">
-					<div class="logo">
+		<header class="row headernav"> <!-- Logo Starts Here -->
+				
+
+				<nav class="col-md-4"> <!-- header starts here - nav pills -->
+					 <ul class="nav nav-pills justify-content-start">
+		              <li class="nav-item">
+		                <a class="nav-link" href="index.html">Clients</a>
+		              </li>
+		              
+		              <li class="nav-item">
+		                <a class="nav-link" href="about.html">Warehouse</a>
+		              </li>
+
+		              
+		            </ul>
+		            </nav>
+				
+
+					<div class ="col-md-2 offset-md-1">
+					<div class="logo3">
 					<img class="img-fluid logo" src="images/gvalogo.png" alt="Green Valley Auctions and Moving Logo">
-				</div>
+					</div>
 				</div><!-- end logo -->
 
-				<div class="input-group rounded col-md-3 mb-3 offset-md-6 mt-2">
-			  <input type="search" class="form-control rounded" placeholder="Search / Filter" aria-label="Search"
-			    aria-describedby="search-addon" />
-			  </span>
+				<div class ="col-md-2 offset-md-1">
+				<a class="btn btn-primary btn-intake rounded-pill" href="intakeform.html" role="button" target="_blank">Intake Form</a>
 			</div>
 
-		</header>
+				<div class ="col-md-2">
+				<i class="fas fa-search fa-2x"></i>
+				<i class="fas fa-calendar-alt fa-2x"></i>
+				<i class="fas fa-sign-out-alt fa-2x"></i>
+			</div>
+
+
+
+			
+
+			</header> <!-- end row header -->
 
 		<div class="text-center">
 			<h2>Client Profiles</h2>
 		</div>
 
-		
+	
+			<!-- start client profiles -->
 
-<div class="text-center">
-			<a class="btn btn-primary btn-lg btn-intake" href="intakeform.html" role="button">Intake Form</a><br><br>
-		</div>
-
-
-
-
-        	<!-- start cards for other pages -->
-        	<div class="row justify-content-center cards">
-			<div class="col-md-3 col-md-offset-3">
-				<div class="card clientcard" style="width: 18rem; height: 20rem;">
-  				<a href="overview.html"><img class="card-img-top" src="images/client1.jpeg" alt="Jenny Lakes" ></a>
-  				<div class="card-body">
-   				<h5 class="card-title">Jenny Lakes</h5>
-  				</div>
+			<div class="row justify-content-center" id="photos" data-toggle="modal" data-target="exampleModal">
+				  <div class="col-md-3">
+				    <img src="images/profileicon.png" alt="Profile Icon" class="w-100" data-target="carouselExample" data-slide-to="0" style="width:20%">
+				  </div>
+				  <div class="col-md-3">
+				    <img src="images/profileicon.png" alt="Profile Icon" class="w-100" data-target="carouselExample" data-slide-to="1" style="width:80%">
 				</div>
-			</div>
-
 				<div class="col-md-3">
-					<div class="card clientcard" style="width: 18rem; height: 20rem;">
-  				<a href="planner.html"><img class="card-img-top" src="images/client4.jpeg" alt="Ryan Jones"></a>
-  				<div class="card-body">
-   				<h5 class="card-title">Ryan Jones</h5>
-  				</div>
+				    <img src="images/profileicon.png" alt="Profile Icon" class="w-100" data-target="carouselExample" data-slide-to="1" style="width:10%">
 				</div>
-			</div>
+				
+				</div> 
 
-			<div class="col-md-3">
-					<div class="card clientcard" style="width: 18rem; height: 20rem;">
-  				<a href="delivered.html"><img class="card-img-top" src="images/client6.jpeg" alt="Ben Hill"></a>
-  				<div class="card-body">
-   				<h5 class="card-title">Ben Hill</h5>
-  				</div>
+
+			<div class="row justify-content-center clientnames">
+				<div class="col-md-3 offset-md-1">
+					<h3> Stephanie James </h3>
 				</div>
-			</div>
-
-		</div><br><br>
-
-
-
-
-			<div class="row justify-content-center cards">
-			<div class="col-md-3 col-md-offset-3">
-				<div class="card" style="width: 18rem; height: 20rem;">
-  				<a href="undelivered.html"><img class="card-img-top" src="images/client2.jpeg" alt="Stephanie James"></a>
-  				<div class="card-body">
-   				<h5 class="card-title">Stephanie James</h5>
-  				</div>
-				</div>
-			</div>
-
 				<div class="col-md-3">
-					<div class="card" style="width: 18rem; height: 20rem;">
-  				<a href="size.html"><img class="card-img-top" src="images/client5.jpeg" alt="Tyler Oaks"></a>
-  				<div class="card-body">
-   				<h5 class="card-title">Tyler Oaks</h5>
-  				</div>
+					<h3> Stephanie James </h3>
 				</div>
+				<div class="col-md-3">
+					<h3> Stephanie James </h3>
+				</div>
+
 			</div>
 
-			<div class="col-md-3">
-					<div class="card" style="width: 18rem;height: 20rem;">
-  				<a href="contact.html"><img class="card-img-top" src="images/client3.jpeg" alt="Emily Williams" ></a>
-  				<div class="card-body">
-   				<h5 class="card-title">Emily Williams</h5>
-  				</div>
+				<div class="row justify-content-center" id="photos" data-toggle="modal" data-target="exampleModal">
+				  <div class="col-md-3">
+				    <img src="images/profileicon.png" alt="Profile Icon" class="w-100" data-target="carouselExample" data-slide-to="0" style="width:20%">
+				  </div>
+				  <div class="col-md-3">
+				    <img src="images/profileicon.png" alt="Profile Icon" class="w-100" data-target="carouselExample" data-slide-to="1" style="width:80%">
 				</div>
-			</div>
+				<div class="col-md-3">
+				    <img src="images/profileicon.png" alt="Profile Icon" class="w-100" data-target="carouselExample" data-slide-to="1" style="width:10%">
+				</div>
+				
+				</div>
+
+
+
+				<!-- end client profiles -->
+
+
+
+
+
+        	
 
 
 	</body>
