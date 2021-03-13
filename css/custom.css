@@ -55,8 +55,8 @@ h4 {
 
 /*heading 5*/
 h5 {
-  font: bold 1.1em Georgia, serif;
-  color: #98ab9d;
+  font: bold 1.5em Open Sans, sans-serif;
+  color: #4D697C;
   
 }
 
@@ -195,9 +195,11 @@ div.c {
   padding-top: 30px;
 }
 
-.clientnames {
-  
+.progress1 {
+  width: 10%;
+  padding-bottom: 20px;
 }
+
 
 .card-text:hover {
   color: #688b9a;
