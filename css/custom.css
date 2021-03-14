@@ -284,7 +284,34 @@ div.c {
 }
 
 
- 
+ .lookat {
+  padding-left: 150px;
+ }
+
+ .questions {
+  padding-left: 194px;
+ }
+
+ .downsizing {
+  padding-left: 185px;
+ }
+
+ .estate {
+  padding-left: 142px;
+ }
+
+ .moving {
+  padding-left: 215px;
+ }
+
+ .howsoldbox {
+  padding-left: 90px;
+ }
+
+ .whatsoldbox {
+  padding-left: 130px;
+ }
+
 
 
 
